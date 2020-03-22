@@ -1,4 +1,11 @@
-# 手撕JDK系列（一）
+---
+title: JDK源码精读(一)
+date: 2019-05-27 21:42:18
+tags: [JDK源码精读]
+---
+
+
+# JDK精读系列（一）
 
 最近有点焦躁，可能是大环境所影响，对未来有点焦虑，不想在未来的浪潮里被淘汰。
 
@@ -7,6 +14,8 @@
 ## 首先需要认识下jdk中的3个包
 
 rt.jar、tools.jar和dt.jar
+
+<!-- more -->
 
 dt.jar和tools.jar位于：{Java_Home}/lib/下，而rt.jar位于：{Java_Home}/jre/lib/下,其中：dt.jar是关于运行环境的类库; tools.jar是工具类库,编译和运行需要的都是toos.jar里面的类分别是sun.tools.java.*; sun.tols.javac.*;  在Classpath设置这几个变量，是为了方便在程序中 import；Web系统都用到tool.jar。
 

@@ -1,3 +1,10 @@
+---
+title: dubbo源码精读
+date: 2019-05-27 21:42:18
+tags:
+---
+
+
 # dubbo源码精读（一）
 
 dubbo作为java rpc框架中的一员，重要性就不多说了，每次出去跟人交流也总提到这个，虽然项目中一直在用，可却从来没完整的、系统的学习过dubbo。今天开始迈出dubbo第一步：
@@ -9,6 +16,10 @@ dubbo的底层原理：https://blog.csdn.net/qq_33101675/article/details/7870130
 下图为我在项目中的dubbo2.5.3jar包目录结构
 
 ![dubbo目录](/img/dubbo/dir.png)
+
+
+<!-- more -->
+
 
 ## hession 包
 
@@ -134,3 +145,4 @@ public interface Deserializer {
 8. rpc：这是dubbo作为一个服务调用框架的核心功能。包含了对集群的处理、监听、通信协议、代理的实现、过滤器、rpc容器与调用等
 
 今天就先到这里，后续对rpc继续写个专题。
+

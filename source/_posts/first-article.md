@@ -1,7 +1,7 @@
 ---
-title: first article
+title: 博客项目构建
 date: 2019-05-27 21:42:18
-tags:
+tags: 博客项目构建
 ---
 
 
@@ -17,14 +17,14 @@ tags:
 ``` bash
 $ npm install -g hexo-cli
 ```
-
+<!-- more -->
 
 ### 第二步：项目初始化
 ``` bash
 $ hexo init
 ```
 
-## 其实到到这一步，已经完成了环境的基本配置。其他使用只需要了解这几个命令就可以了。
+## 到到这一步，已经完成了环境的基本配置。其他使用只需要了解这几个命令就可以了。
 
 	hexo new/n "page name" //新建文章
 	hexo generate/g  //页面生成
